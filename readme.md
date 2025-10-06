@@ -8,5 +8,3 @@ This is an extension that makes Gnome's onscreen keyboard (the fully javascript 
 Known bugs/issues:
 * Ctrl and Alt can be flaky after chaning the keyboard language
 * No way to input shift+F_ shortcut
-
-![Screenshot of the extension](screenshot_improve_osk.png?raw=true "Screenshot")
