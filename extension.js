@@ -56,19 +56,15 @@ function enable() {
     
         let defaultKeysPostMod = [
             [ [{ label: '⌫', width: 1.5, keyval: Clutter.KEY_BackSpace }, { label: '⌦', width: 1, keyval: Clutter.KEY_Delete }, { width: 1, action: 'hide', extraClassName: 'hide-key' }],
-              [{ width: 2, keyval: Clutter.KEY_Return, extraClassName: 'enter-key' }, { width: 1.5, action: 'languageMenu', extraClassName: 'layout-key' }],
               [{ width: 3, level: 1, right: true, extraClassName: 'shift-key-lowercase' }, { label: '?123', width: 1.5, level: 2 }],
               [{ label: '←', width: 1, keyval: Clutter.KEY_Left }, { label: '↑', width: 1, keyval: Clutter.KEY_Up }, { label: '↓', width: 1, keyval: Clutter.KEY_Down }, { label: '→', width: 1, keyval: Clutter.KEY_Right }] ],
             [ [{ label: '⌫', width: 1.5, keyval: Clutter.KEY_BackSpace }, { label: '⌦', width: 1, keyval: Clutter.KEY_Delete }, { width: 1, action: 'hide', extraClassName: 'hide-key' }],
-              [{ width: 2, keyval: Clutter.KEY_Return, extraClassName: 'enter-key' }, { width: 1.5, action: 'languageMenu', extraClassName: 'layout-key' }],
               [{ width: 3, level: 0, right: true, extraClassName: 'shift-key-uppercase' }, { label: '?123', width: 1.5, level: 2 }],
               [{ label: '←', width: 1, keyval: Clutter.KEY_Left }, { label: '↑', width: 1, keyval: Clutter.KEY_Up }, { label: '↓', width: 1, keyval: Clutter.KEY_Down }, { label: '→', width: 1, keyval: Clutter.KEY_Right }] ],
             [ [{ label: '⌫', width: 1.5, keyval: Clutter.KEY_BackSpace }, { label: '⌦', width: 1, keyval: Clutter.KEY_Delete }, { width: 1, action: 'hide', extraClassName: 'hide-key' }],
-              [{ width: 2, keyval: Clutter.KEY_Return, extraClassName: 'enter-key' }, { width: 1.5, action: 'languageMenu', extraClassName: 'layout-key' }],
               [{ label: '=/<F', width: 3, level: 3, right: true }, { label: 'ABC', width: 1.5, level: 0 }],
               [{ label: '←', width: 1, keyval: Clutter.KEY_Left }, { label: '↑', width: 1, keyval: Clutter.KEY_Up }, { label: '↓', width: 1, keyval: Clutter.KEY_Down }, { label: '→', width: 1, keyval: Clutter.KEY_Right }] ],
             [ [{ label: 'F1', width: 1, keyval: Clutter.KEY_F1 }, { label: 'F2', width: 1, keyval: Clutter.KEY_F2 }, { label: 'F3', width: 1, keyval: Clutter.KEY_F3 }, { label: '⌫', width: 1.5, keyval: Clutter.KEY_BackSpace }, { label: '⌦', width: 1, keyval: Clutter.KEY_Delete }, { width: 1, action: 'hide', extraClassName: 'hide-key' }],
-              [{ label: 'F4', width: 1, keyval: Clutter.KEY_F4 }, { label: 'F5', width: 1, keyval: Clutter.KEY_F5 }, { label: 'F6', width: 1, keyval: Clutter.KEY_F6 }, { width: 2, keyval: Clutter.KEY_Return, extraClassName: 'enter-key' }, { width: 1.5, action: 'languageMenu', extraClassName: 'layout-key' }],
               [{ label: 'F7', width: 1, keyval: Clutter.KEY_F7 }, { label: 'F8', width: 1, keyval: Clutter.KEY_F8 }, { label: 'F9', width: 1, keyval: Clutter.KEY_F9 }, { label: '?123', width: 3, level: 2, right: true }, { label: 'ABC', width: 1.5, level: 0 }],
               [{ label: 'F10', width: 1, keyval: Clutter.KEY_F10 }, { label: 'F11', width: 1, keyval: Clutter.KEY_F11 }, { label: 'F12', width: 1, keyval: Clutter.KEY_F12 }, { label: '←', width: 1, keyval: Clutter.KEY_Left }, { label: '↑', width: 1, keyval: Clutter.KEY_Up }, { label: '↓', width: 1, keyval: Clutter.KEY_Down }, { label: '→', width: 1, keyval: Clutter.KEY_Right }] ],
         ];
